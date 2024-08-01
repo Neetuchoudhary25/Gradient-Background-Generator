@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: linear-gradient(to right,rgb(182, 182, 184), rgb(117, 219, 124), rgb(231, 231, 85)) ;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 40px;
+    font-size: 20px;
+   
+    
+~}
+
+.gradient{
+    
+    text-align: center;
+    border: 2px solid black;
+    padding: 60px;
+    box-shadow: 10px 20px 30px black;
+}
+
+#myButton,#myButton2{
+    font-size: 30px;
+    border: 4px solid black;
+    background: linear-gradient(to right,rgb(202, 104, 177),rgb(169, 210, 86));
+    border-radius: 20px;
+   padding: 10px;
+   margin: 10px;
+}
+
+#myButton:hover,#myButton2:hover{
+    border: 4px solid rgb(208, 63, 184);
+    background: white;
+}
+
+.copyCode{
+    border: 2px solid #201f1f;
+    border-radius: 5px;
+    background-color: rgb(156, 204, 224);
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+    
+}
+
+.copyCode:hover{
+ border: 2px solid white;
+}
+
+h2{
+    font-size: 20px;
+    margin: 20px;
+}
+
+
+
+
+
+
+ 
